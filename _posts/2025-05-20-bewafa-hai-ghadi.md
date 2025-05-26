@@ -3,11 +3,9 @@ layout: post
 title: bewafa hai ghadi
 subtitle: A poem on time
 date: 2025-05-20 18:02:00 +0000
-tags:
-- general
-- poem
+---
 
-*bewafa hai ghadi*
+**bewafa hai ghadi**
 
 time betrays me  
 it holds my hand 

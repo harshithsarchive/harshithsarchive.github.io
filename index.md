@@ -1,24 +1,27 @@
 ---
 layout: default
-title: Hello
+title: Home
 ---
 
+# Welcome to Harshith's Archive
 
-## An easy to use, minimal, text focused Jekyll theme
+This is my personal blog where I share my thoughts, experiences, and creative writing.
 
-[Bear Blog](https://bearblog.dev/) is *"a blogging platform where words matter most"*. 
+## Recent Posts
 
-This is a port of it's theme to Jekyll, with some tweaks. So you can use GitHub Pages to host your blog while getting the same awesome Bear Blog feels.
+<ul class="blog-posts">
+{% for post in site.posts limit:5 %}
+<li>
+    <span>
+        <i>
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate="">
+                {{ post.date | date: "%b %-d, %Y" }}
+            </time>
+        </i>
+    </span>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
 
-**Stop worrying about the style, focus on your writing.**
-
-- Looks great on *any* device
-- Tiny, optimized, and awesome pages
-- No trackers, ads, or scripts, *did I mention minimal already?*
-- Auto light and dark themes
-- Tag support, to filter blog pages
-- Quick, *15 minute* setup
-- Gallery view for your images
-- Code highlighting
-
-Have a look around, this website is already themed with **jekyllBear**. If you like it, head over to the GitHub [repository](https://github.com/knhash/jekyllBear) for installation instructions.
+[View all posts →]({{ site.baseurl }}/blog)
