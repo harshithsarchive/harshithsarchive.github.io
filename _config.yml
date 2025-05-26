@@ -5,28 +5,43 @@ url: "https://harshithsarchive.github.io"
 baseurl: ""
 
 # Blog settings
-paginate: 15
-Blog: "/blog"
+Blog: "/blog/"
 
-# Tracker
-analytics:
+# Navigation links
+links:
+  About: "/about/"
 
-# Comments
-disqus-shortname:
+# Special links (external)
+special_links: []
 
 # Build settings
 markdown: kramdown
-theme: harshiths-archive
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  my_tags:
+    output: true
+    permalink: /tagged/:name/
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Exclude from processing
+# Exclude files
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - README.md
+  - LICENSE.txt
+  - jekyllBear.gemspec
+  - vendor/
+
+# Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: false
