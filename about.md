@@ -1,14 +1,15 @@
 ---
 layout: page
-title: About
+title: about
 ---
 
-# About Harshith
+# about the author
 
-Welcome to my personal archive! I'm Harshith, and this is where I share my thoughts, poetry, and creative writing.
+welcome to my personal archive! i'm harshith, just turned 18, and this is where I share my thoughts poetry all that stuff you get the point.
 
-This blog is my space to express emotions through words, capture fleeting moments, and explore the beauty of language. You'll find poems, reflections, and pieces that resonate with the human experience.
+this blog is my space to put out my work, write abt the way i feel, and explore the beauty of language. you'll find poems, reviews, rants, reflections, and pieces that'll prolly hit home.
 
-Feel free to explore my writings and connect with me on [Instagram](https://www.instagram.com/harshiths.archive/).
+feel free to explore my writings and connect with me on [Instagram](https://www.instagram.com/harshiths.archive/).
 
-Thank you for visiting my corner of the internet.
+thank you for visiting my corner of the internet! :>
+<3
