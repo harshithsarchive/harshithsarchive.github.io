@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Home
+title: home
 ---
 
-# Welcome to Harshith's Archive
+# welcome to harshith's archive
 
-This is my personal blog where I share my thoughts, experiences, and creative writing.
+meow :3
 
 ## Recent Posts
 
