@@ -1,11 +1,12 @@
+
 ---
 layout: default
-title: home
+title: Home
 ---
 
-# welcome to harshith's archive
+# Welcome to Harshith's Archive
 
-meow :3
+This is my personal blog where I share my thoughts, experiences, and creative writing.
 
 ## Recent Posts
 
@@ -24,4 +25,4 @@ meow :3
 {% endfor %}
 </ul>
 
-[View all posts →]({{ site.baseurl }}/blog)
+[View all posts →]({{ site.baseurl }}/blog/)
