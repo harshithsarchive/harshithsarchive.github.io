@@ -1,7 +1,7 @@
 /* Bear Blog Inspired Minimalist Theme */
 
 :root {
-    --main-color: #222;
+    --main-color: #000; /* was #222 */
     --accent-color: #4a90e2;
     --background-color: #faf9f6;
     --border-color: #e5e5e5;
@@ -35,7 +35,7 @@ body {
 .wrapper {
     max-width: 680px;
     margin: 48px auto 0 auto;
-    background: #fff;
+    background: #fcfcfc; /* was #fff */
     border: 1px solid var(--border-color);
     border-radius: 10px;
     box-shadow: 0 2px 16px 0 rgba(0,0,0,0.03);
