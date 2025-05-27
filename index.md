@@ -1,14 +1,9 @@
 
----
-layout: default
-title: Home
----
 
-# Welcome to Harshith's Archive
+hi!
+this is my personal blog where you'll find poetry, reviews, rants, etc.
 
-This is my personal blog where I share my thoughts, experiences, and creative writing.
-
-## Recent Posts
+## my recent posts
 
 <ul class="blog-posts">
 {% for post in site.posts limit:5 %}
@@ -25,4 +20,4 @@ This is my personal blog where I share my thoughts, experiences, and creative wr
 {% endfor %}
 </ul>
 
-[View all posts →]({{ site.baseurl }}/blog/)
+[view all posts →]({{ site.baseurl }}/blog/)

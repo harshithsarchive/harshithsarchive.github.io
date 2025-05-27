@@ -1,9 +1,8 @@
 ---
 layout: page
-title: blog
 ---
 
-# All Posts
+# all posts :>
 
 <ul class="blog-posts">
 {% for post in site.posts %}
