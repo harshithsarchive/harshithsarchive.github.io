@@ -3,16 +3,12 @@ layout: compress
 ---
 
 {% include head.html %}
-
+<body>
+  <div class="wrapper">
+    {% include header.html %}
     <main>
-
-        {% include header.html %}
-
-        {{ content }}
-
+      {{ content }}
     </main>
-
     {% include footer.html %}
-
+  </div>
 </body>
-</html>
